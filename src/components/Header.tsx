@@ -27,11 +27,11 @@ export default function Header() {
         <Link
           href="/"
           className="relative flex shrink-0 items-center transition-opacity hover:opacity-90"
-          aria-label="Qarabağlı Farm — Ana səhifə"
+          aria-label="Qarabağlılar Farm — Ana səhifə"
         >
           <Image
             src="/logo.jpeg"
-            alt="Qarabağlı Farm"
+            alt="Qarabağlılar Farm"
             width={180}
             height={56}
             className="h-10 w-auto object-contain sm:h-12"

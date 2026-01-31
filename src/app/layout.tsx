@@ -12,12 +12,12 @@ const plusJakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Qarabağlı Farm | Təbiətdən süfrənizə — Təmiz və Sağlam Qida",
-    template: "%s | Qarabağlı Farm",
+    default: "Qarabağlılar Farm | Təbiətdən süfrənizə — Təmiz və Sağlam Qida",
+    template: "%s | Qarabağlılar Farm",
   },
   description:
-    "Qarabağlı Farm — qoyunçuluq və ekoloji təmiz ət məhsulları istehsalı ilə məşğul olan müasir kənd təsərrüfatı müəssisəsi. Keyfiyyətə nəzarət, veterinar standartları.",
-  keywords: ["Qarabağlı Farm", "qoyunçuluq", "ət məhsulları", "ekoloji qida", "Azərbaycan"],
+    "Qarabağlılar Farm — qoyunçuluq və ekoloji təmiz ət məhsulları istehsalı ilə məşğul olan müasir kənd təsərrüfatı müəssisəsi. Keyfiyyətə nəzarət, veterinar standartları.",
+  keywords: ["Qarabağlılar Farm", "qoyunçuluq", "ət məhsulları", "ekoloji qida", "Azərbaycan"],
   openGraph: {
     type: "website",
     locale: "az_AZ",

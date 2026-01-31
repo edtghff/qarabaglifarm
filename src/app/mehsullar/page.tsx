@@ -6,7 +6,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: "Məhsullarımız",
   description:
-    "Qarabağlı Farm — qoyun cinsləri və ət məhsulları. Təbii dad, ekoloji təmizlik, yüksək keyfiyyət.",
+    "Qarabağlılar Farm — qoyun cinsləri və ət məhsulları. Təbii dad, ekoloji təmizlik, yüksək keyfiyyət.",
 };
 
 const meatFeatures = [

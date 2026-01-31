@@ -1,6 +1,6 @@
-# Qarabağlı Farm — Korporativ vebsayt
+# Qarabağlılar Farm — Korporativ vebsayt
 
-Qarabağlı Farm üçün müasir, çoxsəhifəli korporativ vebsayt. Next.js (App Router), Tailwind CSS və Lucide-React əsasında qurulub.
+Qarabağlılar Farm üçün müasir, çoxsəhifəli korporativ vebsayt. Next.js (App Router), Tailwind CSS və Lucide-React əsasında qurulub.
 
 ## Texnologiyalar
 
@@ -52,4 +52,4 @@ npm start
 
 ---
 
-© 2026 Qarabağlı Farm. Bütün hüquqlar qorunur.
+© 2026 Qarabağlılar Farm. Bütün hüquqlar qorunur.

@@ -22,7 +22,7 @@ export default function Footer() {
             <Link href="/" className="inline-flex rounded-lg bg-white p-2 transition-opacity hover:opacity-90">
               <Image
                 src="/logo.jpeg"
-                alt="Qarabağlı Farm"
+                alt="Qarabağlılar Farm"
                 width={160}
                 height={50}
                 className="h-10 w-auto object-contain sm:h-12"
@@ -97,7 +97,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-16 border-t border-white/20 pt-8 text-center text-sm text-white/70">
-          <p>© 2026 Qarabağlı Farm. Bütün hüquqlar qorunur.</p>
+          <p>© 2026 Qarabağlılar Farm. Bütün hüquqlar qorunur.</p>
         </div>
       </div>
     </footer>

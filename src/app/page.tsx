@@ -47,7 +47,7 @@ export default function HomePage() {
         <div className="absolute inset-0">
           <Image
             src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=1920&q=80"
-            alt="Qarabağlı Farm — otlaq və təbii mühit"
+            alt="Qarabağlılar Farm — otlaq və təbii mühit"
             fill
             className="object-cover"
             priority
@@ -65,7 +65,7 @@ export default function HomePage() {
               Təbiətdən süfrənizə: Təmiz və Sağlam Qida
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/90 sm:text-xl">
-              Qarabağlı Farm — təbii şəraitdə qoyun yetişdirən, ekoloji təmiz və
+              Qarabağlılar Farm — təbii şəraitdə qoyun yetişdirən, ekoloji təmiz və
               keyfiyyətli ət məhsulları təqdim edən müasir kənd təsərrüfatı
               müəssisəsidir. Veterinar nəzarəti və şəffaflıq əsas prinsipimizdir.
             </p>
@@ -97,7 +97,7 @@ export default function HomePage() {
               Haqqımızda
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-[var(--graphite)]">
-              Qarabağlı Farm — qoyunçuluq və ekoloji təmiz ət məhsulları
+              Qarabağlılar Farm — qoyunçuluq və ekoloji təmiz ət məhsulları
               istehsalı ilə məşğul olan müasir kənd təsərrüfatı müəssisəsidir.
               Keyfiyyətə nəzarət, veterinar standartları və dayanıqlı inkişaf
               bizim əsas dəyərlərimizdir. Ailəvi təsərrüfatdan strateji aqrar

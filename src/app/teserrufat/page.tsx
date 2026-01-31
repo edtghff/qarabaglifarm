@@ -12,7 +12,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: "Təsərrüfatımız",
   description:
-    "Qarabağlı Farm — heyvanların saxlanma şəraiti, otlaqlar, qidalanma və keyfiyyətə nəzarət prosesi.",
+    "Qarabağlılar Farm — heyvanların saxlanma şəraiti, otlaqlar, qidalanma və keyfiyyətə nəzarət prosesi.",
 };
 
 const processSteps = [
@@ -123,7 +123,7 @@ export default function TeserrufatPage() {
                 <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-[var(--border)] transition-transform hover:scale-[1.02]">
                   <Image
                     src="https://images.unsplash.com/photo-1500595046743-cd271d694d30"
-                    alt={`Qarabağlı Farm — görüntü ${i}`}
+                    alt={`Qarabağlılar Farm — görüntü ${i}`}
                     fill
                     className="object-cover"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

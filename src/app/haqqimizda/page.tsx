@@ -5,7 +5,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 export const metadata: Metadata = {
   title: "Haqqımızda",
   description:
-    "Qarabağlı Farm — şirkətin tarixi, missiyası və vizyonu. Şəffaflıq, keyfiyyət və dayanıqlı inkişaf əsas prinsiplərimizdir.",
+    "Qarabağlılar Farm — şirkətin tarixi, missiyası və vizyonu. Şəffaflıq, keyfiyyət və dayanıqlı inkişaf əsas prinsiplərimizdir.",
 };
 
 const missionItems = [
@@ -49,7 +49,7 @@ export default function HaqqimizdaPage() {
               id="haqqimizda-basliq"
               className="text-4xl font-bold tracking-tight text-[var(--deep-green)] sm:text-5xl"
             >
-              Qarabağlı Farm haqqında
+              Qarabağlılar Farm haqqında
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-[var(--graphite)]">
               Təbiətə hörmət. Keyfiyyətə nəzarət.
@@ -73,7 +73,7 @@ export default function HaqqimizdaPage() {
             </h2>
             <div className="mt-8 space-y-6 text-lg leading-relaxed text-[var(--graphite)]">
               <p>
-                Qarabağlı Farm ailəvi təsərrüfat ənənələri əsasında yaranmış
+                Qarabağlılar Farm ailəvi təsərrüfat ənənələri əsasında yaranmış
                 müasir kənd təsərrüfatı müəssisəsidir. Kiçik fermer təsərrüfatından
                 strukturlu aqrar şirkətə qədər inkişaf yolu keçmişik.
               </p>
@@ -151,7 +151,7 @@ export default function HaqqimizdaPage() {
               Rəsmi qeydiyyat və nəzarət
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-[var(--graphite)]">
-              Qarabağlı Farm qanunvericiliyə uyğun fəaliyyət göstərir. Müəssisənin
+              Qarabağlılar Farm qanunvericiliyə uyğun fəaliyyət göstərir. Müəssisənin
               dövlət qeydiyyatı, veterinar nəzarəti və sanitariya standartlarına
               riayət bizim üçün prioritetdir. Müştərilərimizə rəsmi və şəffaf
               xidmət təqdim edirik.
