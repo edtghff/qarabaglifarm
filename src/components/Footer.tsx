@@ -1,51 +1,67 @@
-import Link from "next/link";
+"use client";
+
+import { Link } from "@/i18n/navigation";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { Phone, Mail, MapPin, Instagram } from "lucide-react";
 
-const quickLinks = [
-  { href: "/", label: "Ana səhifə" },
-  { href: "/haqqimizda", label: "Haqqımızda" },
-  { href: "/teserrufat", label: "Təsərrüfat" },
-  { href: "/mehsullar", label: "Məhsullar" },
-  { href: "/elaqe", label: "Əlaqə" },
-];
+const PHONE_MANAGEMENT = "+994503774478";
+const PHONE_DELIVERY = "+994703774478";
+
+const quickLinkPaths = [
+  { href: "/", key: "home" },
+  { href: "/haqqimizda", key: "about" },
+  { href: "/teserrufat", key: "farm" },
+  { href: "/mehsullar", key: "products" },
+  { href: "/elaqe", key: "contact" },
+] as const satisfies readonly { href: string; key: (typeof navKeys)[number] }[];
+
+const navKeys = ["home", "about", "farm", "products", "contact"] as const;
 
 export default function Footer() {
+  const t = useTranslations("footer");
+  const tNav = useTranslations("nav");
+
   return (
     <footer
       className="bg-[var(--deep-green)] text-white"
       role="contentinfo"
     >
-      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="grid gap-12 lg:grid-cols-3 lg:gap-16">
+      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-16">
+        <div className="grid gap-10 sm:gap-12 lg:grid-cols-3 lg:gap-16">
           <div>
-            <Link href="/" className="inline-flex rounded-lg bg-white p-2 transition-opacity hover:opacity-90">
+            <Link
+              href="/"
+              className="inline-flex h-12 min-h-[44px] min-w-[44px] items-center justify-center overflow-visible rounded-lg bg-white p-2 transition-opacity hover:opacity-90 active:opacity-80 sm:h-14"
+            >
               <Image
-                src="/logo.jpeg"
+                src="/logow.png"
                 alt="Qarabağlılar Farm"
-                width={160}
-                height={50}
-                className="h-10 w-auto object-contain sm:h-12"
+                width={280}
+                height={88}
+                className="h-full w-auto origin-center scale-[1.3] object-contain sm:scale-[1.4]"
               />
             </Link>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/90">
-              Qoyunçuluq və ekoloji təmiz ət məhsulları istehsalı. Təbiətdən
-              süfrənizə — təmiz və sağlam qida.
+              {t("description")}
+            </p>
+            <p className="mt-3 text-sm font-medium text-white/80">
+              {t("deliveryNote")}
             </p>
           </div>
 
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-white/80">
-              Sürətli keçidlər
+              {t("quickLinks")}
             </h3>
             <ul className="mt-4 space-y-3">
-              {quickLinks.map(({ href, label }) => (
+              {quickLinkPaths.map(({ href, key }) => (
                 <li key={href}>
                   <Link
                     href={href}
-                    className="text-sm text-white/90 transition-colors hover:text-white"
+                    className="block py-2.5 text-sm text-white/90 transition-colors hover:text-white active:text-white"
                   >
-                    {label}
+                    {tNav(key)}
                   </Link>
                 </li>
               ))}
@@ -54,22 +70,39 @@ export default function Footer() {
 
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-white/80">
-              Əlaqə məlumatları
+              {t("contactInfo")}
             </h3>
-            <ul className="mt-4 space-y-4">
+            <ul className="mt-4 space-y-3">
               <li>
                 <a
-                  href="tel:+994518866362"
-                  className="flex items-center gap-3 text-sm text-white/90 transition-colors hover:text-white"
+                  href={`tel:${PHONE_MANAGEMENT.replace(/\s/g, "")}`}
+                  className="flex min-h-[44px] items-center gap-3 py-2 text-sm text-white/90 transition-colors hover:text-white active:text-white"
                 >
                   <Phone size={18} strokeWidth={1.5} />
-                  +994 51 886 63 62
+                  <span>
+                    <span className="block text-xs text-white/70">{t("phoneManagement")}</span>
+                    <span className="font-medium">050 377 44 78</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href={`https://wa.me/${PHONE_DELIVERY.replace(/\D/g, "")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex min-h-[44px] items-center gap-3 py-2 text-sm text-white/90 transition-colors hover:text-white active:text-white"
+                >
+                  <Phone size={18} strokeWidth={1.5} />
+                  <span>
+                    <span className="block text-xs text-white/70">{t("phoneDelivery")}</span>
+                    <span className="font-medium">070 377 44 78</span>
+                  </span>
                 </a>
               </li>
               <li>
                 <a
                   href="mailto:info@qarabaglifarm.az"
-                  className="flex items-center gap-3 text-sm text-white/90 transition-colors hover:text-white"
+                  className="flex min-h-[44px] items-center gap-3 py-2 text-sm text-white/90 transition-colors hover:text-white active:text-white"
                 >
                   <Mail size={18} strokeWidth={1.5} />
                   info@qarabaglifarm.az
@@ -78,7 +111,7 @@ export default function Footer() {
               <li>
                 <span className="flex items-center gap-3 text-sm text-white/90">
                   <MapPin size={18} strokeWidth={1.5} />
-                  Bakı ş. Nəsimi r-nu, Mirəli Qaşqay küç.
+                  {t("address")}
                 </span>
               </li>
               <li>
@@ -86,7 +119,7 @@ export default function Footer() {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-sm text-white/90 transition-colors hover:text-white"
+                  className="flex min-h-[44px] items-center gap-3 py-2 text-sm text-white/90 transition-colors hover:text-white active:text-white"
                 >
                   <Instagram size={18} strokeWidth={1.5} />
                   Instagram
@@ -97,7 +130,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-16 border-t border-white/20 pt-8 text-center text-sm text-white/70">
-          <p>© 2026 Qarabağlılar Farm. Bütün hüquqlar qorunur.</p>
+          <p>{t("copyright")}</p>
         </div>
       </div>
     </footer>

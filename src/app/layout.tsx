@@ -25,17 +25,22 @@ export const metadata: Metadata = {
   robots: "index, follow",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: "#1a3c34",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="az">
+    <html lang="az" suppressHydrationWarning>
       <body className={`${plusJakarta.variable} font-sans antialiased`}>
-        <Header />
-        <main id="main-content" role="main">{children}</main>
-        <Footer />
+        {children}
       </body>
     </html>
   );

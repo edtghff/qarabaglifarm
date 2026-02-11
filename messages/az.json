@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "home": "Ana səhifə",
+    "about": "Haqqımızda",
+    "farm": "Təsərrüfat",
+    "products": "Məhsullar",
+    "contact": "Əlaqə",
+    "menuAria": "Əsas menyu",
+    "openMenu": "Menyunu aç"
+  },
+  "footer": {
+    "quickLinks": "Sürətli keçidlər",
+    "contactInfo": "Əlaqə məlumatları",
+    "description": "Qoyunçuluq və ekoloji təmiz ət məhsulları istehsalı. Təbiətdən süfrənizə — təmiz və sağlam qida.",
+    "copyright": "© 2026 Qarabağlılar Farm. Bütün hüquqlar qorunur.",
+    "deliveryNote": "Çatdırılma ödənişlidir.",
+    "address": "Bakı ş. Nəsimi r-nu, Mirəli Qaşqay küç.",
+    "phoneManagement": "Rəhbərlik, əlaqə və məlumat",
+    "phoneDelivery": "Sifariş və çatdırılma, WhatsApp, logistika"
+  },
+  "home": {
+    "hero": {
+      "title": "Təbiətdən süfrənizə: Təmiz və Sağlam Qida",
+      "subtitle": "Qarabağlılar Farm — təbii şəraitdə qoyun yetişdirən, ekoloji təmiz və keyfiyyətli ət məhsulları təqdim edən müasir kənd təsərrüfatı müəssisəsidir. Veterinar nəzarəti və şəffaflıq əsas prinsipimizdir.",
+      "cta": "Əlaqə saxla",
+      "trustBadge": "Keyfiyyətli ət · Veterinar nəzarəti · Çatdırılma"
+    },
+    "aboutPreview": {
+      "title": "Haqqımızda",
+      "lead": "Sağlamlığınız üçün təbii seçim",
+      "text": "Qarabağlılar Farm — qoyunçuluq və ekoloji təmiz ət məhsulları istehsalı ilə məşğul olan müasir kənd təsərrüfatı müəssisəsidir. Keyfiyyətə nəzarət, veterinar standartları və dayanıqlı inkişaf bizim əsas dəyərlərimizdir. Ailəvi təsərrüfatdan strateji aqrar brendə — şəffaflıq və peşəkarlıqla.",
+      "link": "Daha ətraflı"
+    },
+    "values": {
+      "title": "Niyə Qarabağlılar Farm?",
+      "subtitle": "Təbii ət və keyfiyyət — hər məhsulumuzun zəmanəti",
+      "naturalFeed": "Təbii yemlər",
+      "naturalFeedDesc": "Heyvanlarımız yalnız təbii yemlərlə qidalanır. Süni əlavələr və hormon istifadə etmirik.",
+      "sanitary": "Sanitar nəzarət",
+      "sanitaryDesc": "Veterinar nəzarəti və sanitariya standartlarına ciddi riayət. Keyfiyyətə tam nəzarət.",
+      "breeding": "Cins heyvandarlıq",
+      "breedingDesc": "Seçilmiş cinslərin yetişdirilməsi və nəsillik istiqamətin inkişafı.",
+      "eco": "Ekoloji təmizlik",
+      "ecoDesc": "Təbiətə hörmət. Ekoloji təmiz şəraitdə yetişdirilən məhsullar."
+    },
+    "productsPreview": {
+      "title": "Məhsullarımız",
+      "text": "Seçilmiş qoyun cinsləri və yüksək keyfiyyətli ət məhsulları. Təbii dad, ekoloji təmizlik və tam keyfiyyətə nəzarət — hər məhsulumuzun zəmanəti.",
+      "link": "Məhsulları gör",
+      "cta": "Sifariş və çatdırılma üçün əlaqə saxlayın."
+    },
+    "ctaStrip": {
+      "title": "Keyfiyyətli ət sifarişi",
+      "text": "Komandamız sizə məsləhət verməyə və sifarişi qəbul etməyə hazırdır.",
+      "button": "Əlaqə saxla"
+    }
+  },
+  "about": {
+    "title": "Qarabağlılar Farm haqqında",
+    "subtitle": "Təbiətə hörmət. Keyfiyyətə nəzarət.",
+    "history": {
+      "title": "Şirkətin tarixi",
+      "p1": "Qarabağlılar Farm ailəvi təsərrüfat ənənələri əsasında yaranmış müasir kənd təsərrüfatı müəssisəsidir. Kiçik fermer təsərrüfatından strukturlu aqrar şirkətə qədər inkişaf yolu keçmişik.",
+      "p2": "Fəaliyyətimiz qoyunçuluq üzərində qurulub. Sağlam heyvanların təbii şəraitdə yetişdirilməsi, təbii yemlərlə qidalanması və veterinar tələblərinə tam uyğunluq — bizim əsas prinsiplərimizdir.",
+      "p3": "Şirkət özünü sadəcə ferma kimi deyil, gələcəkdə daha geniş bazar və ixrac imkanlarına malik aqrar brend kimi mövqeləndirir. Strateji düşüncə və peşəkar idarəetmə ilə inkişafımızı davam etdiririk."
+    },
+    "mission": {
+      "title": "Missiya və Vizion",
+      "subtitle": "Fəaliyyətimizin əsasında duran dəyərlər",
+      "transparency": "Şəffaflıq",
+      "transparencyDesc": "Heyvanların saxlanma şəraitinin açıq nümayişi. Müştərilərimizə tam əminlik veririk.",
+      "quality": "Keyfiyyət",
+      "qualityDesc": "Daimi veterinar monitorinq və sanitariya standartlarına ciddi riayət.",
+      "sustainability": "Dayanıqlı inkişaf",
+      "sustainabilityDesc": "Təbii qidalanma və saxlanma üsulları. Ekoloji təmiz istehsal."
+    },
+    "registration": {
+      "title": "Rəsmi qeydiyyat və nəzarət",
+      "text": "Qarabağlılar Farm qanunvericiliyə uyğun fəaliyyət göstərir. Müəssisənin dövlət qeydiyyatı, veterinar nəzarəti və sanitariya standartlarına riayət bizim üçün prioritetdir. Müştərilərimizə rəsmi və şəffaf xidmət təqdim edirik."
+    },
+    "stats": {
+      "annualProduction": "İllik istehsal",
+      "animalCount": "Heyvan sayı",
+      "employees": "Əməkdaşlar",
+      "annualProductionValue": "50+ ton",
+      "animalCountValue": "150+",
+      "employeesValue": "12"
+    }
+  },
+  "farm": {
+    "title": "Təsərrüfatımız",
+    "subtitle": "Şərait, keyfiyyət və nəzarət",
+    "conditions": {
+      "title": "Şərait və qidalanma",
+      "p1": "Heyvanlarımız təbii otlaqlarda saxlanılır. Geniş ərazi, təmiz hava və təbii işıq — sağlam inkişaf üçün əsas şərtlərdir. Süni mühit və sıx saxlanma yoxdur.",
+      "p2": "Qidalanma yalnız təbii yemlər əsasında təşkil olunur. Ot, yem bitkiləri və keyfiyyətli yem əlavələri. Veterinar tövsiyələrinə uyğun balanslaşdırılmış rasion.",
+      "p3": "Sanitariya və təmizlikə daim diqqət yetirilir. Bu yanaşma həm heyvanların sağlamlığını, həm də məhsulun keyfiyyətini təmin edir."
+    },
+    "gallery": {
+      "title": "Qalereya",
+      "subtitle": "Təsərrüfatımızdan görüntülər"
+    },
+    "process": {
+      "title": "Keyfiyyətə nəzarət prosesi",
+      "subtitle": "Hər addımda keyfiyyət və etibarlıq",
+      "feed": "Yem seçimi",
+      "feedDesc": "Yalnız təbii və keyfiyyətli yemlər. Süni əlavələr və hormon istifadə olunmur.",
+      "veterinary": "Baytarlıq nəzarəti",
+      "veterinaryDesc": "Daimi veterinar müayinə və profilaktik tədbirlər. Sağlamlığa tam nəzarət.",
+      "sanitation": "Sanitariya",
+      "sanitationDesc": "Təmizlik və sanitariya standartlarına ciddi riayət. Ekoloji təmiz mühit.",
+      "delivery": "Çatdırılma",
+      "deliveryDesc": "Keyfiyyətin qorunması ilə çatdırılma. Şəffaf və etibarlı logistika."
+    }
+  },
+  "products": {
+    "title": "Məhsullarımız",
+    "subtitle": "Qoyun cinsləri və ət məhsulları — keyfiyyət və etibarlıq",
+    "breeds": {
+      "title": "Qoyun cinsləri",
+      "subtitle": "Seçilmiş cinslər və nəsillik işi əsasında keyfiyyətli məhsul istehsalı",
+      "local": "Yerli cinslər",
+      "localDesc": "Regionun iqliminə uyğunlaşmış, sağlam və məhsuldar cinslər. Ailəvi təsərrüfat təcrübəsi əsasında seçilmiş heyvanlar.",
+      "qualityBreeding": "Keyfiyyətli nəsillik",
+      "qualityBreedingDesc": "Cins seçimi və nəsillik işi ilə məhsuldarlığın və ət keyfiyyətinin yüksəldilməsi. Strateji yanaşma."
+    },
+    "meat": {
+      "title": "Ət məhsulları",
+      "subtitle": "Yüksək keyfiyyətli, ekoloji təmiz qoyun əti. Xüsusiyyətlər:",
+      "naturalTaste": "Təbii dad",
+      "naturalTasteDesc": "Təbii yemlər və açıq otlaq saxlanması ətə unikal, təmiz dad verir. Süni əlavələr yoxdur.",
+      "ecoClean": "Ekoloji təmizlik",
+      "ecoCleanDesc": "Veterinar nəzarəti və sanitariya standartlarına uyğun istehsal. Etibarlı məhsul.",
+      "highQuality": "Yüksək keyfiyyət",
+      "highQualityDesc": "Seçilmiş cinslər, keyfiyyətə nəzarət prosesi. Hər məhsul üçün zəmanət."
+    },
+    "cta": {
+      "title": "Topdan və pərakəndə sifariş üçün əlaqə saxlayın",
+      "text": "Keyfiyyətli məhsullarımız haqqında məlumat və sifariş üçün bizimlə əlaqə saxlayın.",
+      "button": "Əlaqə saxla"
+    }
+  },
+  "contact": {
+    "title": "Əlaqə",
+    "subtitle": "Bizimlə əlaqə saxlayın — cavab verməyə hazırıq",
+    "formTitle": "Əlaqə formu",
+    "name": "Ad",
+    "namePlaceholder": "Adınız",
+    "phone": "Telefon",
+    "phonePlaceholder": "+994 XX XXX XX XX",
+    "email": "Email",
+    "emailPlaceholder": "email@example.com",
+    "message": "Mesaj",
+    "messagePlaceholder": "Mesajınız...",
+    "send": "Göndər",
+    "sending": "Göndərilir...",
+    "sent": "Göndərildi",
+    "successMsg": "Mesajınız uğurla göndərildi. Tezliklə sizinlə əlaqə saxlayacağıq.",
+    "contactInfo": "Əlaqə məlumatları",
+    "phoneLabel": "Telefon",
+    "whatsappLabel": "WhatsApp",
+    "emailLabel": "Email",
+    "addressLabel": "Ünvan",
+    "address": "Bakı ş. Nəsimi r-nu, Mirəli Qaşqay küç.",
+    "mapPlaceholder": "Google Maps xəritəsi"
+  }
+}

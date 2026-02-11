@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "farm": "Farm",
+    "products": "Products",
+    "contact": "Contact",
+    "menuAria": "Main menu",
+    "openMenu": "Open menu"
+  },
+  "footer": {
+    "quickLinks": "Quick links",
+    "contactInfo": "Contact information",
+    "description": "Sheep farming and eco-friendly meat production. From nature to your table — clean and healthy food.",
+    "copyright": "© 2026 Qarabağlılar Farm. All rights reserved.",
+    "deliveryNote": "Delivery is paid.",
+    "address": "Baku, Nasimi dist., Miralı Qashqay str.",
+    "phoneManagement": "Management, contact & information",
+    "phoneDelivery": "Orders & delivery, WhatsApp, logistics"
+  },
+  "home": {
+    "hero": {
+      "title": "From nature to your table: Clean and Healthy Food",
+      "subtitle": "Qarabağlılar Farm is a modern agricultural enterprise raising sheep in natural conditions and offering eco-friendly, high-quality meat products. Veterinary oversight and transparency are our core principles.",
+      "cta": "Contact us",
+      "trustBadge": "Quality meat · Veterinary control · Delivery"
+    },
+    "aboutPreview": {
+      "title": "About us",
+      "lead": "The natural choice for your health",
+      "text": "Qarabağlılar Farm is a modern agricultural enterprise engaged in sheep farming and eco-friendly meat production. Quality control, veterinary standards and sustainable development are our core values. From a family farm to a strategic agricultural brand — with transparency and professionalism.",
+      "link": "Learn more"
+    },
+    "values": {
+      "title": "Why Qarabağlılar Farm?",
+      "subtitle": "Natural meat and quality — our guarantee for every product",
+      "naturalFeed": "Natural feed",
+      "naturalFeedDesc": "Our animals are fed only with natural feed. We do not use artificial additives or hormones.",
+      "sanitary": "Sanitary control",
+      "sanitaryDesc": "Strict compliance with veterinary and sanitary standards. Full quality control.",
+      "breeding": "Breed husbandry",
+      "breedingDesc": "Raising selected breeds and developing breeding lines.",
+      "eco": "Eco-friendly",
+      "ecoDesc": "Respect for nature. Products raised in an eco-friendly environment."
+    },
+    "productsPreview": {
+      "title": "Our products",
+      "text": "Selected sheep breeds and high-quality meat products. Natural taste, eco-friendly production and full quality control — our guarantee for every product.",
+      "link": "View products",
+      "cta": "Contact us for orders and delivery."
+    },
+    "ctaStrip": {
+      "title": "Order quality meat",
+      "text": "Our team is ready to advise you and take your order.",
+      "button": "Contact us"
+    }
+  },
+  "about": {
+    "title": "About Qarabağlılar Farm",
+    "subtitle": "Respect for nature. Quality control.",
+    "history": {
+      "title": "Company history",
+      "p1": "Qarabağlılar Farm is a modern agricultural enterprise built on family farming traditions. We have come a long way from a small family farm to a structured agricultural company.",
+      "p2": "Our activity is based on sheep farming. Raising healthy animals in natural conditions, feeding them with natural feed and full compliance with veterinary requirements are our core principles.",
+      "p3": "The company positions itself not just as a farm, but as an agricultural brand with prospects for a wider market and export. We continue to grow through strategic thinking and professional management."
+    },
+    "mission": {
+      "title": "Mission and vision",
+      "subtitle": "The values behind our work",
+      "transparency": "Transparency",
+      "transparencyDesc": "Open demonstration of animal welfare. We give our customers full confidence.",
+      "quality": "Quality",
+      "qualityDesc": "Regular veterinary monitoring and strict compliance with sanitary standards.",
+      "sustainability": "Sustainable development",
+      "sustainabilityDesc": "Natural feeding and husbandry methods. Eco-friendly production."
+    },
+    "registration": {
+      "title": "Official registration and oversight",
+      "text": "Qarabağlılar Farm operates in accordance with the law. Company registration, veterinary oversight and compliance with sanitary standards are our priorities. We provide our customers with official and transparent service."
+    },
+    "stats": {
+      "annualProduction": "Annual production",
+      "animalCount": "Animal count",
+      "employees": "Employees",
+      "annualProductionValue": "50+ tons",
+      "animalCountValue": "150+",
+      "employeesValue": "12"
+    }
+  },
+  "farm": {
+    "title": "Our farm",
+    "subtitle": "Conditions, quality and control",
+    "conditions": {
+      "title": "Conditions and feeding",
+      "p1": "Our animals are kept on natural pastures. Open space, clean air and natural light are essential for healthy development. No artificial environment or overcrowding.",
+      "p2": "Feeding is based only on natural feed. Grass, fodder plants and quality feed additives. A balanced ration in line with veterinary recommendations.",
+      "p3": "We pay constant attention to sanitation and cleanliness. This approach ensures both animal health and product quality."
+    },
+    "gallery": {
+      "title": "Gallery",
+      "subtitle": "Views from our farm"
+    },
+    "process": {
+      "title": "Quality control process",
+      "subtitle": "Quality and reliability at every step",
+      "feed": "Feed selection",
+      "feedDesc": "Only natural, high-quality feed. No artificial additives or hormones.",
+      "veterinary": "Veterinary control",
+      "veterinaryDesc": "Regular veterinary examination and preventive measures. Full health monitoring.",
+      "sanitation": "Sanitation",
+      "sanitationDesc": "Strict compliance with cleanliness and sanitary standards. Eco-friendly environment.",
+      "delivery": "Delivery",
+      "deliveryDesc": "Delivery with quality preserved. Transparent and reliable logistics."
+    }
+  },
+  "products": {
+    "title": "Our products",
+    "subtitle": "Sheep breeds and meat products — quality and reliability",
+    "breeds": {
+      "title": "Sheep breeds",
+      "subtitle": "Quality production based on selected breeds and breeding work",
+      "local": "Local breeds",
+      "localDesc": "Breeds adapted to the local climate, healthy and productive. Animals selected on the basis of family farming experience.",
+      "qualityBreeding": "Quality breeding",
+      "qualityBreedingDesc": "Improving productivity and meat quality through breed selection and breeding. A strategic approach."
+    },
+    "meat": {
+      "title": "Meat products",
+      "subtitle": "High-quality, eco-friendly lamb. Features:",
+      "naturalTaste": "Natural taste",
+      "naturalTasteDesc": "Natural feed and pasture raising give the meat a unique, clean taste. No artificial additives.",
+      "ecoClean": "Eco-friendly",
+      "ecoCleanDesc": "Production in line with veterinary and sanitary standards. A reliable product.",
+      "highQuality": "High quality",
+      "highQualityDesc": "Selected breeds and a quality control process. Our guarantee for every product."
+    },
+    "cta": {
+      "title": "Contact us for wholesale and retail orders",
+      "text": "Contact us for information and orders of our quality products.",
+      "button": "Contact us"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch — we are ready to respond",
+    "formTitle": "Contact form",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "phone": "Phone",
+    "phonePlaceholder": "+994 XX XXX XX XX",
+    "email": "Email",
+    "emailPlaceholder": "email@example.com",
+    "message": "Message",
+    "messagePlaceholder": "Your message...",
+    "send": "Send",
+    "sending": "Sending...",
+    "sent": "Sent",
+    "successMsg": "Your message was sent successfully. We will contact you soon.",
+    "contactInfo": "Contact information",
+    "phoneLabel": "Phone",
+    "whatsappLabel": "WhatsApp",
+    "emailLabel": "Email",
+    "addressLabel": "Address",
+    "address": "Baku, Nasimi dist., Miralı Qashqay str.",
+    "mapPlaceholder": "Google Maps"
+  }
+}
