@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 
 const BASE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://qarabaglifarm.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://qarabaglilarfarm.az";
 
 const PUBLIC_PATHS = ["", "/haqqimizda", "/teserrufat", "/mehsullar", "/elaqe"] as const;
 

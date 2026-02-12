@@ -11,7 +11,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 const BASE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://qarabaglifarm.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://qarabaglilarfarm.az";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
