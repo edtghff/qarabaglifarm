@@ -68,13 +68,14 @@ export default async function HaqqimizdaPage({
           <ScrollReveal>
             <div className="relative aspect-[21/9] overflow-hidden rounded-xl">
               <Image
-                src="https://images.pexels.com/photos/5667612/pexels-photo-5667612.jpeg?auto=compress&cs=tinysrgb&w=1200&q=80"
-                alt=""
+                src="/aboutimg.jpeg"
+                alt="Qarabağlılar Farm — ofis və brend"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 1200px"
+                priority
               />
-              <div className="absolute inset-0 bg-[var(--deep-green)]/40" />
+              <div className="absolute inset-0 bg-[var(--deep-green)]/30" />
             </div>
           </ScrollReveal>
         </div>
@@ -93,10 +94,12 @@ export default async function HaqqimizdaPage({
             >
               {t("history.title")}
             </h2>
-            <div className="mt-6 space-y-5 text-base leading-relaxed text-[var(--graphite)] sm:mt-8 sm:space-y-6 sm:text-lg">
+            <div className="mt-6 space-y-6 text-base leading-relaxed text-[var(--graphite)] sm:mt-10 sm:space-y-8 sm:text-lg sm:leading-loose">
               <p>{t("history.p1")}</p>
               <p>{t("history.p2")}</p>
               <p>{t("history.p3")}</p>
+              {t("history.p4") && <p>{t("history.p4")}</p>}
+              {t("history.p5") && <p>{t("history.p5")}</p>}
             </div>
           </ScrollReveal>
         </div>
@@ -189,9 +192,9 @@ export default async function HaqqimizdaPage({
             >
               {t("registration.title")}
             </h2>
-            <p className="mt-4 text-base leading-relaxed text-[var(--graphite)] sm:mt-6 sm:text-lg">
-              {t("registration.text")}
-            </p>
+            <div className="mt-6 space-y-6 text-base leading-relaxed text-[var(--graphite)] sm:mt-10 sm:space-y-8 sm:text-lg sm:leading-loose">
+              <p>{t("registration.text")}</p>
+            </div>
           </ScrollReveal>
         </div>
       </section>

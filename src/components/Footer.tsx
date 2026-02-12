@@ -81,7 +81,7 @@ export default function Footer() {
                   <Phone size={18} strokeWidth={1.5} />
                   <span>
                     <span className="block text-xs text-white/70">{t("phoneManagement")}</span>
-                    <span className="font-medium">050 377 44 78</span>
+                    <span className="font-medium">+994 50 377 44 78</span>
                   </span>
                 </a>
               </li>
@@ -95,7 +95,7 @@ export default function Footer() {
                   <Phone size={18} strokeWidth={1.5} />
                   <span>
                     <span className="block text-xs text-white/70">{t("phoneDelivery")}</span>
-                    <span className="font-medium">070 377 44 78</span>
+                    <span className="font-medium">+994 70 377 44 78</span>
                   </span>
                 </a>
               </li>

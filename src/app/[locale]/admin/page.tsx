@@ -176,21 +176,38 @@ export default function AdminPage() {
   };
 
   const clearContent = async () => {
-    await supabaseBrowser.from("products").delete().neq("id", "");
-    await supabaseBrowser.from("gallery_images").delete().neq("id", "");
+    setDeleteError(null);
+    const { error: ep } = await supabaseBrowser.from("products").delete().neq("id", "");
+    const { error: eg } = await supabaseBrowser.from("gallery_images").delete().neq("id", "");
+    if (ep || eg) {
+      setDeleteError(
+        `Hamısı silinmədi. Supabase RLS siyasətlərinə icazə verin: products və gallery_images üçün DELETE.`,
+      );
+      return;
+    }
     setProducts([]);
     setGallery([]);
   };
 
+  const [deleteError, setDeleteError] = useState<string | null>(null);
+
   const deleteGalleryImage = async (id: string) => {
+    setDeleteError(null);
     const { error } = await supabaseBrowser.from("gallery_images").delete().eq("id", id);
-    if (error) return;
+    if (error) {
+      setDeleteError(`Qalereya silinmədi: ${error.message}. Supabase RLS siyasətlərini yoxlayın.`);
+      return;
+    }
     setGallery((prev) => prev.filter((img) => img.id !== id));
   };
 
   const deleteProduct = async (id: string) => {
+    setDeleteError(null);
     const { error } = await supabaseBrowser.from("products").delete().eq("id", id);
-    if (error) return;
+    if (error) {
+      setDeleteError(`Məhsul silinmədi: ${error.message}. Supabase RLS siyasətlərini yoxlayın.`);
+      return;
+    }
     setProducts((prev) => prev.filter((p) => p.id !== id));
   };
 
@@ -265,6 +282,11 @@ export default function AdminPage() {
           </button>
         </div>
 
+        {deleteError && (
+          <div className="mb-4 rounded-lg border border-red-300 bg-red-50 p-4 text-sm text-red-700">
+            {deleteError}
+          </div>
+        )}
         {tab === "submissions" ? (
           <section>
             <div className="mb-4 flex items-center justify-between gap-4">

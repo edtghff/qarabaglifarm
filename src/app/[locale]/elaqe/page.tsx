@@ -188,7 +188,7 @@ export default function ElaqePage() {
                         <span className="block text-sm font-medium text-[var(--muted)]">
                           {tFooter("phoneManagement")}
                         </span>
-                        <span className="mt-1 block font-medium">050 377 44 78</span>
+                        <span className="mt-1 block font-medium">+994 50 377 44 78</span>
                       </div>
                     </a>
                   </li>
@@ -206,7 +206,7 @@ export default function ElaqePage() {
                         <span className="block text-sm font-medium text-[var(--muted)]">
                           {tFooter("phoneDelivery")}
                         </span>
-                        <span className="mt-1 block font-medium">070 377 44 78</span>
+                        <span className="mt-1 block font-medium">+994 70 377 44 78</span>
                       </div>
                     </a>
                   </li>

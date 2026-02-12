@@ -52,7 +52,7 @@ export default async function HomePage({
 
         <div className="relative z-10 mx-auto w-full max-w-7xl">
           <div className="max-w-2xl">
-            <h1 className="text-3xl font-bold leading-[1.2] tracking-tight text-white sm:text-4xl sm:leading-tight md:text-5xl lg:text-6xl xl:text-7xl">
+            <h1 className="overflow-x-auto pb-1 text-3xl font-bold leading-[1.2] tracking-tight text-white sm:text-4xl sm:leading-tight md:text-5xl lg:text-6xl xl:text-7xl whitespace-nowrap">
               {t("hero.title")}
             </h1>
             <p className="mt-4 max-w-xl text-base leading-relaxed text-white/90 sm:mt-6 sm:text-lg md:text-xl">
@@ -219,7 +219,7 @@ export default async function HomePage({
                 className="inline-flex min-h-[48px] items-center justify-center gap-2 rounded-lg border-2 border-[var(--deep-green)] px-6 py-3 font-semibold text-[var(--deep-green)] transition-all hover:bg-[var(--deep-green)] hover:text-white active:scale-[0.98] sm:px-8"
               >
                 <Phone size={18} strokeWidth={2} />
-                070 377 44 78
+                +994 70 377 44 78
               </a>
             </div>
           </ScrollReveal>
