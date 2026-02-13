@@ -32,7 +32,7 @@ export default async function HomePage({
     <>
       {/* Hero Section */}
       <section
-        className="relative flex min-h-[70vh] flex-col justify-end bg-[var(--deep-green)] px-4 pb-8 pt-20 sm:min-h-[80vh] sm:px-6 sm:pb-28 sm:pt-24 lg:px-8"
+        className="relative flex min-h-[70vh] flex-col justify-end overflow-x-hidden bg-[var(--deep-green)] px-4 pb-8 pt-20 sm:min-h-[80vh] sm:px-6 sm:pb-28 sm:pt-24 lg:px-8"
         aria-label={t("hero.title")}
       >
         <div className="absolute inset-0">
@@ -50,10 +50,29 @@ export default async function HomePage({
           />
         </div>
 
-        <div className="relative z-10 mx-auto w-full max-w-7xl">
-          <div className="max-w-2xl">
-            <h1 className="overflow-x-auto pb-1 text-3xl font-bold leading-[1.2] tracking-tight text-white sm:text-4xl sm:leading-tight md:text-5xl lg:text-6xl xl:text-7xl whitespace-nowrap">
-              {t("hero.title")}
+        <div className="relative z-10 mx-auto w-full max-w-7xl min-w-0">
+          <div className="w-full max-w-5xl min-w-0">
+            <h1 className="w-full max-w-full overflow-hidden pb-1 text-[clamp(0.9rem,4vw,4.5rem)] font-bold leading-[1.2] tracking-tight text-white whitespace-normal break-words">
+              {(() => {
+                const title = t("hero.title");
+                const [first, ...rest] = title.split(":");
+                const second = rest.join(":").trim();
+
+                if (!second) {
+                  return title;
+                }
+
+                return (
+                  <>
+                    <span className="block whitespace-nowrap">
+                      {first.trim()}:
+                    </span>
+                    <span className="block whitespace-nowrap">
+                      {second}
+                    </span>
+                  </>
+                );
+              })()}
             </h1>
             <p className="mt-4 max-w-xl text-base leading-relaxed text-white/90 sm:mt-6 sm:text-lg md:text-xl">
               {t("hero.subtitle")}

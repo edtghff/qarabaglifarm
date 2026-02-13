@@ -27,6 +27,7 @@
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -35,6 +36,7 @@ body {
   font-family: var(--font-plus-jakarta), system-ui, sans-serif;
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);
+  overflow-x: hidden;
 }
 
 /* Mobile-friendly: tap highlight, touch targets */
